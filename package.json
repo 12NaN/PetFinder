@@ -3,9 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "cors": "^2.8.5",
+    "http-proxy-middleware": "^0.20.0",
     "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.12",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-dropzone": "^10.1.8",
+    "react-scripts": "3.1.1",
+	  "petfinder": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -16,6 +22,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "proxy": "https://api.petfinder.com/v2/types",
   "browserslist": {
     "production": [
       ">0.2%",
